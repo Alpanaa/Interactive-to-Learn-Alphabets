@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap');
+
+$color-1:#FAD4D4;
+$color-2:#DFFFD8;
+$color-3:#B4E4FF;
+$color-4:#D9ACF5;
+$color-5:#FFF4D2;
+$color-6:#95BDFF;
+
+*{
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    body{
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: 150px;
+    }
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 30px;
+}
+
+[class^="row-"]{
+    display: flex;
+    gap: 30px;
+}
+
+[class^="box-"]{
+    background-color: #c4c4c4;
+    border: 2px solid black;
+
+    width: (100%)/4;
+    height: 300px;
+
+    display: grid;
+    place-items: center;
+}
+
+.box-25, .box-26{
+    width: 22%;
+}
+
+.box-1,.box-7,.box-13,.box-19,.box-25{
+    background-color: $color-1;
+    border: #f97e7e 4px solid;
+    border-radius: 10px;
+}
+
+.box-2,.box-8,.box-14,.box-20,.box-26{
+    background-color: $color-2;
+    border: #a3f990 4px solid;
+    border-radius: 10px;
+}
+
+.box-3,.box-9,.box-15,.box-21{
+    background-color: $color-3;
+    border: #73c8fa 4px solid;
+    border-radius: 10px;
+}
+
+.box-4,.box-10,.box-16,.box-22{
+    background-color: $color-4;
+    border: #c981f6 4px solid;
+    border-radius: 10px;
+}
+
+.box-5,.box-11,.box-17,.box-23{
+    background-color: $color-5;
+    border: #f8d774 4px solid;
+    border-radius: 10px;
+}
+
+.box-6,.box-12,.box-18,.box-24{
+    background-color: $color-6;
+    border: #699ff7 4px solid;
+    border-radius: 10px;
+}
+
+.box-1:hover{
+    font-size: 0px;
+    background-image: url("img/apple.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-2:hover{
+    font-size: 0px;
+    background-image: url("img/ball.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-3:hover{
+    font-size: 0px;
+    background-image: url("img/cat.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-4:hover{
+    font-size: 0px;
+    background-image: url("img/dog.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-5:hover{
+    font-size: 0px;
+    background-image: url("img/elephant.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-6:hover{
+    font-size: 0px;
+    background-image: url("img/fish.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-7:hover{
+    font-size: 0px;
+    background-image: url("img/grapes.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-8:hover{
+    font-size: 0px;
+    background-image: url("img/hat.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-9:hover{
+    font-size: 0px;
+    background-image: url("img/icecream.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-10:hover{
+    font-size: 0px;
+    background-image: url("img/jug.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-11:hover{
+    font-size: 0px;
+    background-image: url("img/kite.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-12:hover{
+    font-size: 0px;
+    background-image: url("img/lamp.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-13:hover{
+    font-size: 0px;
+    background-image: url("img/monkey.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-14:hover{
+    font-size: 0px;
+    background-image: url("img/nest.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-15:hover{
+    font-size: 0px;
+    background-image: url("img/orange.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-16:hover{
+    font-size: 0px;
+    background-image: url("img/parrot.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-17:hover{
+    font-size: 0px;
+    background-image: url("img/queen.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-18:hover{
+    font-size: 0px;
+    background-image: url("img/rose.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-19:hover{
+    font-size: 0px;
+    background-image: url("img/swan.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-20:hover{
+    font-size: 0px;
+    background-image: url("img/turtle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-21:hover{
+    font-size: 0px;
+    background-image: url("img/umbrella.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-22:hover{
+    font-size: 0px;
+    background-image: url("img/violin.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-23:hover{
+    font-size: 0px;
+    background-image: url("img/watch.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-24:hover{
+    font-size: 0px;
+    background-image: url("img/xray.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-25:hover{
+    font-size: 0px;
+    background-image: url("img/yak.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-26:hover{
+    font-size: 0px;
+    background-image: url("img/zebra.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+@media (max-width:650px){
+    [class^="row-"]{
+        flex-direction: column;
+    }
+
+    [class^="box-"]{
+        width: 100%;
+    }
+}
